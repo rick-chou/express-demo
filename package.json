@@ -1,0 +1,40 @@
+{
+  "name": "express-restful-api",
+  "version": "1.0.0",
+  "description": "express restful api",
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "docker:build": "docker build -t express-restful-api .",
+    "docker:dev": "docker run -it -p 3001:3000 express-restful-api",
+    "docker:run": "docker run -d 3001:3000 express-restful-api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rick-chou/one-piece.git#main"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "rick.zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rick-chou/one-piece/issues"
+  },
+  "homepage": "https://github.com/rick-chou/one-piece/tree/main#readme",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "figlet": "^1.5.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.2",
+    "table": "^6.8.0"
+  }
+}
