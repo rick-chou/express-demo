@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rick-chou/one-piece.git#main"
+    "url": "git+https://github.com/rick-chou/express-demo#main"
   },
   "keywords": [
     "express",
@@ -21,9 +21,9 @@
   "author": "rick.zhou",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rick-chou/one-piece/issues"
+    "url": "https://github.com/rick-chou/express-demo/issues"
   },
-  "homepage": "https://github.com/rick-chou/one-piece/tree/main#readme",
+  "homepage": "https://github.com/rick-chou/express-demo/tree/main#readme",
   "dependencies": {
     "boxen": "^5.1.2",
     "chalk": "^4.1.2",
