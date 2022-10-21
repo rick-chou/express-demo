@@ -7,8 +7,8 @@
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
     "docker:build": "docker build -t express-restful-api .",
-    "docker:dev": "docker run -it -p 3001:3000 express-restful-api",
-    "docker:run": "docker run -d 3001:3000 express-restful-api"
+    "docker:dev": "docker run -it -p 3000:3000 express-restful-api",
+    "docker:run": "docker run -d 3000:3000 express-restful-api"
   },
   "repository": {
     "type": "git",
